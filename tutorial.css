@@ -1,0 +1,66 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica Neue Light";
+}
+
+.frame {
+    border: solid black;
+    width: 30vw;
+    height: 80vh;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 0 2em;
+}
+
+#frame1 {
+    top: 50%;
+    left: 30%;
+}
+
+#frame2 {
+    top: 50%;
+    left: 70%;
+}
+
+#counterLabel {
+    border: solid gray;
+    text-align: center;
+    line-height: 30vh;
+    height: 30vh;
+    width: 100%;
+    font-size: 15vh;
+    margin: 0 0 1vh 0;
+}
+
+#buttonContainer {
+    display: flex;
+    gap: 1em;
+    width: 100%;
+}
+
+.counterButton {
+    height: 10vh;
+    width: 100%;
+    font-size: 3em;
+    color: #555555;
+    text-align: center;
+    line-height: 10vh;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+#upButton {
+    background-color: #c1e4e9;
+}
+
+#downButton {
+    background-color: #d3cfd9;
+}
+
+#resetButton {
+    background-color: #d6e9ca;
+}
